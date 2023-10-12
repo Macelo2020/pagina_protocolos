@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(3, 48, 63);
+}
+
+/* Conteiner da caixa da capa*/
+header {
+    background-color: rgb(250, 248, 248);
+    padding: 1px;
+    border: 20px;
+    margin: 20px;
+
+}
+
+/*Caixa da capa*/
+.capa {
+
+   text-align: center;
+   background-color: rgb(3, 48, 63);
+   justify-content: center;
+   margin: 10px;
+   padding: 10px;
+   border: 20px;
+  
+    
+}
+
+h1 {
+    color: #f0f0f0;
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/*Conteiner da Caixa dos livros*/
+/*flex-direction::row | ow-reverse | column | column-reverse*/
+/*flex-wrap: nowrap | wrap | wrap-reverse;*/
+/*flex-flow: row nowrap | row wrap | column nowrap | column wrap*/
+/*justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;*/
+/*align-items: stretch | flex-start | flex-end | center | baseline;*/
+/*align-content: flex-start | flex-end | center | space-between | space-around | stretch;*/
+
+.flex-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+       
+    
+    background-color: rgb(8, 8, 8);
+    justify-content: center;
+    
+    padding:10px;
+    margin: 10px;
+    border: 10px;
+    
+
+}
+
+/*Caixa dos livros
+.quadrado {
+
+    display: flex;
+    background-color: #3498db;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}*/
+
+/*Conteiner do Banner
+section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 10vh;
+    border: 10vh;
+    background-color: #dd1313;
+}*/
+/*
+.banner {
+
+    background-color: rgb(250, 248, 248);
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+           
+
+}*/
+
+/*Rodapé*/
+footer {
+    
+    background-color: rgb(10, 10, 10);
+    color: rgb(248, 247, 247);
+    
+    
+  }
+  
+
